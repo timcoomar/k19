@@ -1,9 +1,6 @@
 ---
 layout: home
 title: Άμεση δράση για υγεία και αξιοπρέπεια
-pagination:
-  data: collections.post
-  size: 3
 postsHeading: Τελευταία νέα
 archiveButtonText: Δείτε όλες τις αναρτήσεις
 metaDesc: 'Πάρε την αλληλεγγύη στα χέρια σου'
