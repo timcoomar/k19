@@ -1,11 +1,5 @@
 {% extends 'layouts/base.njk' %}
 
-{# Intro content #}
-{% set introHeading = title %}
-{% set introSummary %}
-  {{ content | safe }}
-{% endset %}
-
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
@@ -17,9 +11,27 @@
 {% endif %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+<main class="main-home">
+  <section class="main-home__section">
+    <article class="main-home__article">
+      <figure class="main-home__image">
+        <img src="https://www.inexarchia.gr/sites/default/files/kropotkin-inexarchia.jpg">
+      </figure>
+      <h2>{{ title }}</h2>
+      {{ content | safe }}
+    </article>
+  </section>
+  <aside class="main-home__aside">
+    <ul>
+      <h3>Άμεσα λειτουργούν οι ομάδες εργασίας:</h3>
+      <li>Άμεσων δράσεων Αλληλεγγύης σε ευάλωτες ομάδες (Τρόφιμα και Φάρμακα)</li>
+      <li>Καμπάνιας και Τεχνική υποστήριξη</li>
+      <li>Νομικής Βοήθειας (Εργαζόμενων και Ενοικιαστών)</li>
+      <li>Ψυχολογικής υποστήριξης και συμβουλευτικής</li>
+      <li>Δημοσιογραφική ομάδα και ομάδα μετάφρασης</li>
+    </ul>
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
-  </main>
+  </aside>
+</main>
 {% endblock %}

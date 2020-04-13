@@ -1,12 +1,15 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
-postsHeading: Latest posts
-archiveButtonText: See all posts
-metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.'
+title: Άμεση δράση για υγεία και αξιοπρέπεια
+pagination:
+  data: collections.post
+  size: 3
+postsHeading: Τελευταία νέα
+archiveButtonText: Δείτε όλες τις αναρτήσεις
+metaDesc: 'Πάρε την αλληλεγγύη στα χέρια σου'
 socialImage: ''
 ---
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+Η πανδημία του κορωνοϊού που εμφανίστηκε και μονοπωλεί την ατζέντα παγκοσμίως είναι πιθανό να καθορίσει και να μεταβάλλει στρατηγικές, πολιτικές, λόγους κυρίαρχους και αποκλίνοντες. Τα κράτη επιχειρούν να καλύψουν με επικοινωνιακά μέσα, με αυταρχισμό και ατομική ευθύνη την χρόνια απουσία συντεταγμένης ενίσχυσης της δημόσιας υγείας και της κοινωνικής μέριμνας. Οι φτωχοί, οι εκμεταλλευόμενες, οι λαοί, προσπαθούν να ανοίξουν τη σκέψη και το λόγο σχετικά με το ζήτημα της ανθρωπινότητας και της αλληλεγγύης, της αναγκαιότητας της συνύπαρξης και της οργάνωσης της αλληλοβοήθειας.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+Η πανδημία του κορωνοϊού στη Ελλάδα, εξελίσσεται με το δημόσιο σύστημα υγείας να είναι πλήρως απαξιωμένο, υποχρηματοδοτημένο και υποστελεχωμένο, μετά από χρόνια μνημονίων και νεοφιλελεύθερου μονόδρομου. Σήμερα, δεν θα αφήσουμε να ξεχαστούν οι πολιτικές που απαξίωσαν το σύστημα δημόσιας υγείας. Δεν θα καλύψουν τα χειροκροτήματα αυτών που μέχρι προχθές μιλούσαν ανοιχτά για περικοπές και απολύσεις γιατρών, τις τεράστιες ευθύνες τους.

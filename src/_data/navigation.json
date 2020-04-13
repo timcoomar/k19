@@ -1,17 +1,22 @@
 {
   "items": [
     {
-      "text": "Home",
+      "text": "Αρχική",
       "url": "/",
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
-      "external": true
+      "text": "Άρθρα",
+      "url": "/archive",
+      "external": false
     },
     {
-      "text": "Example Contact Page",
+      "text": "Νέα",
+      "url": "/news",
+      "external": false
+    },
+    {
+      "text": "Επικοινωνία",
       "url": "/contact",
       "external": false
     }

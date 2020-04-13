@@ -52,6 +52,13 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  const liveNews = post => post.date <= now && !post.data.draft;
+  config.addCollection('news', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/news/*.md').filter(liveNews)
+    ].reverse();
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

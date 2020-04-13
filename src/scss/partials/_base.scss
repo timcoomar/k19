@@ -1,0 +1,23 @@
+:root {
+  --krblue:     rgba(38, 35, 54, 1.000);
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 1.6;
+  font-size:   130%;
+  font-size:   clamp(16px, 4vw, 25px);
+}
+
+h1,h2,h3,h4,h5 {
+  color:       var(--krblue);
+}
+
+a, a:visited {
+  text-decoration:    none;
+  color:              #555;
+
+  &:hover{
+    color:            darkred;
+  }
+}
