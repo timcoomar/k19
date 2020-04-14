@@ -2,7 +2,6 @@
 
 {# Intro content #}
 {% set introHeading = title %}
-{% set introSummary %}
 <p>
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
