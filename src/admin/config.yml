@@ -22,8 +22,13 @@ collections:
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Working Groups", name: "workGroups", widget: "list", required: false}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: "Working Groups"
+            name: "workGroups"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Group Name", name: "groupName", widget: "string" }
+              - { label: "Group Info", name: "groupInfo", widget: "string" }
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
