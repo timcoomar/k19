@@ -1,18 +1,15 @@
 {% extends 'layouts/base.njk' %}
 
-{# Intro content #}
-{% set introHeading = title %}
 <p>
   {% if date %}
     <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
   {% endif %}
 </p>
-{% endset %}
 
 {% block content %}
   <main class="main-article">
     <article>
-      <h2>{{ introHeading }}</h2>
+      <h2>{{ title }}</h2>
       {{ content | safe }}
     </article>
   </main>
