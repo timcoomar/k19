@@ -22,10 +22,7 @@ collections:
           - {label: "Archive Link Text", name: "archiveButtonText", widget: "string", default: "See all posts"}
           - {label: "Social Image", name: "socialImage", widget: "image", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Working Groups", name: "workGroups", widget: "list", required: false, fields:
-            - { label: Name, name: groupName, widget: string }
-            - { label: Info, name: groupInfo, widget: list } 
-          }
+          - {label: "Working Groups", name: "workGroups", widget: "list", required: false}
           - {label: "Body", name: "body", widget: "markdown"}
   - name: "generic_pages"
     label: "Generic Pages"
