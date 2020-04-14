@@ -1,6 +1,8 @@
 .site-header {
   background:     var(--krblue);
   padding:        7rem 7vw 4rem;
+  position:       relative;
+  z-index:        2;
 }
 
 .site-nav {

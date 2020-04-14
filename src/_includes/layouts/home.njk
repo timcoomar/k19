@@ -14,9 +14,10 @@
 <main class="main-home">
   <section class="main-home__section">
     <article class="main-home__article">
-      <figure class="main-home__image">
-        <img src="https://www.inexarchia.gr/sites/default/files/kropotkin-inexarchia.jpg">
-      </figure>
+      {# <figure class="main-home__image">
+        <img src="images/5-demands-0.jpg">
+      </figure> #}
+      {% include "partials/components/home-slider.njk" %}
       <h2>{{ title }}</h2>
       {{ content | safe }}
     </article>
