@@ -28,7 +28,7 @@ collections:
             required: false
             fields:
               - { label: "Group Name", name: "groupName", widget: "string" }
-              - { label: "Group Info", name: "groupInfo", widget: "string" }
+              - { label: "Group Info", name: "groupInfo", widget: "markdown" }
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
