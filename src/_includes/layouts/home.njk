@@ -23,8 +23,10 @@
   </section>
   <aside class="main-home__aside">
     {% include "partials/components/work-groups.njk" %}
-    {% include "partials/components/post-list.njk" %}
-    {% include "partials/components/pagination.njk" %}
+    <div class="main-home__aside-section">
+      {% include "partials/components/post-list.njk" %}
+      {% include "partials/components/pagination.njk" %}
+    </div>
     {% include "partials/components/aside-text.njk" %}
   </aside>
 </main>

@@ -7,6 +7,6 @@
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 3,
   "faviconPath": "/images/favicon.png",
-  "logoPath": "/images/logo.svg",
+  "logoPath": "/images/banner.svg",
   "accentsPath": "/js/components/accents.js"
 }
