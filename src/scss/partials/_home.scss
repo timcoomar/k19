@@ -42,6 +42,12 @@
     letter-space:   1px;
   }
 
+  .main-home__aside-section {
+    margin-bottom:   1.5rem;
+    border-bottom:   1px solid rgba(80,80,80,.3);
+    padding-bottom:  1.5rem;
+  }
+
 // Why Kropotkin
 
 .section-why {
@@ -61,3 +67,12 @@
   .section-why h2 {
     text-align:    center;
   }
+
+
+.groups-info > summary {
+  cursor:     pointer;
+  
+  &:hover {
+    color:    darkred;
+  }
+}

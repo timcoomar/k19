@@ -1,0 +1,5 @@
+{% if asideText %}
+  <article class="home-aside__article main-home__aside-section">
+    {{ asideText | markdownFilter | safe }}
+  </article>
+{% endif %}

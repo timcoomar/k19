@@ -1,3 +1,13 @@
 {% if workGroups.length %}
-<p>Yeah, this works!</p>
+  <section class="main-home__aside-section">
+    <h2 class="main-home__aside-title">Ομάδες εργασίας:</h2>
+    {% for item in workGroups %}
+      <details class="groups-info">
+        <summary>
+          {{ item.groupName }}
+        </summary>
+        {{ item.groupInfo | markdownFilter | safe }}
+      </details>
+    {% endfor %}
+  </section>
 {% endif %}
