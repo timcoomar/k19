@@ -2,7 +2,7 @@
 layout: home
 title: Άμεση δράση για υγεία και αξιοπρέπεια
 metaDesc: Πάρε την αλληλεγγύη στα χέρια σου
-postsHeading: Τελευταία νέα
+postsHeading: Τελευταία άρθρα
 archiveButtonText: Δείτε όλες τις αναρτήσεις
 socialImage: ""
 asideText: >
