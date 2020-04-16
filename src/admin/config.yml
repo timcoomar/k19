@@ -33,6 +33,7 @@ collections:
           - label: "Slider"
             name: "sliderImages"
             widget: "list"
+            required: false
             fields: 
               - {label: "Slider Image", name: "sImage", widget: "image"}
               - {label: "Slider Caption", name: "sCaption", widget: "string"}
