@@ -35,11 +35,11 @@ collections:
             widget: "list"
             fields:
               - label: "Slider Item"
-              - name: "sliderItem"
-              - widget: "object"
-              - fields:
-                - { label: "Slider Image", name: "sliderImage", widget: "image"}
-                - { label: "Caption", name: "sliderCaption", widget: "string" }
+                name: "sliderItem"
+                widget: "object"
+                fields:
+                  - { label: "Slider Image", name: "sliderImage", widget: "image"}
+                  - { label: "Caption", name: "sliderCaption", widget: "string" }
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
