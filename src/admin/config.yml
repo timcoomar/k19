@@ -30,6 +30,10 @@ collections:
             fields:
               - { label: "Group Name", name: "groupName", widget: "string" }
               - { label: "Group Info", name: "groupInfo", widget: "markdown" }
+          - label: "Slider"
+            name: "sliderImages"
+            widget: "list"
+            field: {label: Image, name: image, widget: image}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
