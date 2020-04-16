@@ -1,9 +1,11 @@
+{% if sliderImages.length %}
 <div class="slider">
   <div class="slides">
     {% for item in sliderImages %}
     <div class="slide">
-      <img src="{{ item.image }}">
+      <img src="{{ sliderImage }}">
     </div>
     {% endfor %}
   </div>
 </div>
+{% endif %}
