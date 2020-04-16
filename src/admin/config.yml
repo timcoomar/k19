@@ -35,8 +35,8 @@ collections:
             widget: "list"
             required: false
             fields: 
-              - {label: "Slider Image", name: "sImage", widget: "image"}
-              - {label: "Slider Caption", name: "sCaption", widget: "string"}
+              - { label: "Slider Image", name: "sImage", widget: "image" }
+              - { label: "Slider Caption", name: "sCaption", widget: "string" }
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
