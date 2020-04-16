@@ -33,7 +33,7 @@ collections:
           - label: "Slider"
             name: "sliderImages"
             widget: "list"
-            field: {label: Image, name: image, widget: image}
+            field: {label: "Image", name: "image", widget: "image"}
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
