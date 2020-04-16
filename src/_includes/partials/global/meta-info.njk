@@ -1,15 +1,6 @@
-{% set pageTitle = title + ' - ' + site.name %}
-{% set pageDesc = '' %}
+{% set pageTitle = title + ' | ' + site.name %}
 {% set siteTitle = site.name %}
 {% set currentUrl = site.url + page.url %}
-
-{% if metaTitle %}
-  {% set pageTitle = metaTitle %}
-{% endif %}
-
-{% if metaDesc %}
-  {% set pageDesc = metaDesc %}
-{% endif %}
 
 <title>{{ pageTitle }}</title>
 <link rel="canonical" href="{{ currentUrl }}" />

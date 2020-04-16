@@ -1,11 +1,12 @@
-{# {% if sliderImages.length %} #}
+{% if sliderImages.length %}
 <div class="slider">
   <div class="slides">
-    {# {% for item in sliderImages %} #}
+    {% for item in sliderImages %}
     <div class="slide">
-      <img src="https://kropotkin19.com/images/5demands_black.png">
+      {# <img src="images/{{ sliderImage }}"> #}
+      <p>This is a {{ sliderCaption }} test</p>
     </div>
-    {# {% endfor %} #}
+    {% endfor %}
   </div>
 </div>
-{# {% endif %} #}
+{% endif %}

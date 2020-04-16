@@ -33,7 +33,9 @@ collections:
           - label: "Slider"
             name: "sliderImages"
             widget: "list"
-            field: {label: "Slider Image", name: "sliderImage", widget: "image"}
+            fields: 
+              - { label: "Slider Image", name: "sliderImage", widget: "image"}
+              - { label: "Caption", name: "sliderCaption", widget: "string" }
   - name: "generic_pages"
     label: "Generic Pages"
     folder: "src/pages"
