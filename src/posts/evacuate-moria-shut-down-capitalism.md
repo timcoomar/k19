@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Evacuate Moria - Shut Down Capitalism
-socialImage: /images/leyenheaderbe-720x250.jpg
+socialImage: ""
 date: 2020-04-21T17:02:00.000Z
 ---
 # CALL FOR ACTION
